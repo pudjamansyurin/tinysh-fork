@@ -76,6 +76,9 @@ static int strlen(uchar *s)
  */
 static void help_fnt(int argc, char **argv)
 {
+  (void) argc;
+  (void) argv;
+
   puts("?            display help on given or available commands\n");
   puts("<TAB>        auto-completion\n");
   puts("<cr>         execute command line\n");
